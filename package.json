@@ -1,0 +1,32 @@
+{
+  "name": "vrss_converter",
+  "version": "0.1.0-b",
+  "description": "Score Coupons to Decimal converter (and viceversa)",
+  "main": "vrss_converter.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thetechacker/vib-ribbon-stuff.git"
+  },
+  "keywords": [
+    "Thetechacker",
+    "JavaScript",
+    "Node.js",
+    "Vib",
+    "Ribbon",
+    "Score",
+    "Converter",
+    "Decimal",
+    "Pascal",
+    "Triangle",
+    "Mathematics"
+  ],
+  "author": "Thetechacker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thetechacker/vrss_converter/issues"
+  },
+  "homepage": "https://github.com/Thetechacker/vrss_converter#readme"
+}
