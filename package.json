@@ -1,7 +1,7 @@
 {
   "name": "vrss_converter",
   "version": "0.1.0-b",
-  "description": "Score Coupons to Decimal converter (and viceversa)",
+  "description": "Score Coupons to Decimal converter (and viceversa) for Vib Ribbon (PS1)",
   "main": "vrss_converter.js",
   "scripts": {
     "test": "node test.js"
