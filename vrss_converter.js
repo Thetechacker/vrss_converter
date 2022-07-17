@@ -1,5 +1,3 @@
-console.clear()
-
 Array.prototype.chunk = function(perChunk){
     if(!perChunk || typeof perChunk !== "number" || perChunk === Infinity || perChunk === NaN) return null
 
