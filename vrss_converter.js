@@ -96,7 +96,7 @@ function DecimalToScoreCoupons(int){
         }) : null
     }
     
-    var f_table = Object.entries(generateScoreCouponsTable()).map(k => [k[0], k[1]])
+    var f_table = Object.entries(generateScoreCouponsTable())
 
     for(var cur = 0; cur < 7; cur++){ // 7 rounds/elements.
         var k = getClosestValue(f_table.map(k => [k[0], k[1][cur]]).filter(v => !((n - v[1]) < 0)), n)
@@ -115,7 +115,7 @@ function ScoreCouponsToDecimal(str){
 
     var res = 0
 
-    var f_table = Object.entries(generateScoreCouponsTable()).map(k => [k[0], k[1]])
+    var f_table = Object.entries(generateScoreCouponsTable())
 
     for(var cur = 0; cur < str.length; cur++){
         var k = f_table.find(k => k[0] === str[cur])
