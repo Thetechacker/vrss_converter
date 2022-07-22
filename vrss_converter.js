@@ -19,7 +19,7 @@ function generatePascalTriangle(m_level){
 
     var triangle = [ [ 1 ] ]
 
-    for(var i = 0; i < m_level; i++){
+    for(var cl = 0; cl < m_level; cl++){
         var pt = triangle[triangle.length - 1]
         var n_arr = []
 
@@ -39,11 +39,11 @@ function generatePascalTriangle(m_level){
 }
 
 function generateScoreCouponsTable(){
-    // var rows = 21
+    // var rows = 20
     // var tables = 14
     // var elements = 7
 
-    var f_pascal = generatePascalTriangle(21).map((f, i) => f.slice((i >= 14 ? (i - 14) : 0) + 1)).filter(a => a.length !== 0) // 21 --> rows; 14 --> tables;
+    var f_pascal = generatePascalTriangle(20).map((f, i) => f.slice((i >= 14 ? (i - 14) : 0) + 1)).filter(a => a.length !== 0) // 20 --> rows; 14 --> tables;
     var arr = []
     var f_table = {}
 
